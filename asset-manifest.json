@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/GP-Frontend-Hosting/static/css/main.c5d0bd89.chunk.css",
+    "main.js": "/GP-Frontend-Hosting/static/js/main.2be45c86.chunk.js",
+    "main.js.map": "/GP-Frontend-Hosting/static/js/main.2be45c86.chunk.js.map",
+    "runtime-main.js": "/GP-Frontend-Hosting/static/js/runtime-main.176c96ef.js",
+    "runtime-main.js.map": "/GP-Frontend-Hosting/static/js/runtime-main.176c96ef.js.map",
+    "static/js/2.ac0d2ea8.chunk.js": "/GP-Frontend-Hosting/static/js/2.ac0d2ea8.chunk.js",
+    "static/js/2.ac0d2ea8.chunk.js.map": "/GP-Frontend-Hosting/static/js/2.ac0d2ea8.chunk.js.map",
+    "static/js/3.f0e7121c.chunk.js": "/GP-Frontend-Hosting/static/js/3.f0e7121c.chunk.js",
+    "static/js/3.f0e7121c.chunk.js.map": "/GP-Frontend-Hosting/static/js/3.f0e7121c.chunk.js.map",
+    "index.html": "/GP-Frontend-Hosting/index.html",
+    "static/css/main.c5d0bd89.chunk.css.map": "/GP-Frontend-Hosting/static/css/main.c5d0bd89.chunk.css.map",
+    "static/js/2.ac0d2ea8.chunk.js.LICENSE.txt": "/GP-Frontend-Hosting/static/js/2.ac0d2ea8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.176c96ef.js",
+    "static/js/2.ac0d2ea8.chunk.js",
+    "static/css/main.c5d0bd89.chunk.css",
+    "static/js/main.2be45c86.chunk.js"
+  ]
+}
