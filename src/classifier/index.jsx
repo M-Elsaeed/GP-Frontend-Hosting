@@ -57,7 +57,7 @@ const Classifier = () => {
             'Access-Control-Allow-Origin': '*'
           }
         }
-        axios.post("http://127.0.0.1:5000/classify",
+        axios.post("https://xtravagpbackend.herokuapp.com/classify",
           formData, config
         )
           .then(function (response) {
@@ -100,7 +100,14 @@ const Classifier = () => {
       </header>
       <main>
         <h3>Please {currentStep}</h3>
-        <video ref={videoRef} onCanPlay={() => playCameraStream()} id="video" />
+        {/*if _iOSDevice =  */}
+        {
+
+          (!!navigator.platform.match(/iPhone|iPod|iPad/)) ?
+            <video id="video" controls="true" autoplay playsinline ref={videoRef} onCanPlay={() => playCameraStream()}></video>
+            : <video id="video" autoplay playsinline ref={videoRef} onCanPlay={() => playCameraStream()}></video>
+
+        }
         <canvas ref={canvasRef} hidden></canvas>
         <p>Currently seeing: {result}</p>
       </main>
